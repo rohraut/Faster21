@@ -20,7 +20,6 @@ public class Assignment1 {
 
 	}
 	public static void m1() {
-	System.out.println("hello");
-
-	}
+		System.out.println("good evening");
+}
 }
