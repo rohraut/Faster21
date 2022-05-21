@@ -19,7 +19,7 @@ public class Assignment1 {
 		System.out.println(title2);
 
 	}
-	public static void m1() {
+	public static void r1() {
 		System.out.println("good evening");
 }
 }
