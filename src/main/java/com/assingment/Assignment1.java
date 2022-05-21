@@ -17,9 +17,10 @@ public class Assignment1 {
 		System.out.println(title);
 		System.out.println(title1);
 		System.out.println(title2);
-		
-	
-	
 
-}
+	}
+	public static void m1() {
+	System.out.println("hello");
+
+	}
 }
