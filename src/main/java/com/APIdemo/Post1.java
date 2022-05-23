@@ -2,7 +2,7 @@ package com.APIdemo;
 
 import static io.restassured.RestAssured.given;
 
-public class Rest1 {
+public class Post1 {
 	public static void main(String[] args) {
 		//given()
 		//.when()//"when" madhe "get"ahe to perform action
