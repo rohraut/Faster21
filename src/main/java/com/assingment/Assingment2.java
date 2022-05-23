@@ -12,7 +12,7 @@ public class Assingment2 {
 		FileInputStream fis = new FileInputStream("C:/Users/rohan/Downloads/Dashboard.json");//for file reading
 		JsonPath js = new JsonPath(fis);
 		//String value = js.getString("courses.MobileAutomation[0].title");
-		String value = js.getString("dashboard.website");
+		String value = js.getString("courses.webautomation[3]");
 		System.out.println(value);
 		
 	}

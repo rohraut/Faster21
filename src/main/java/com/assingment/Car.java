@@ -1,31 +1,51 @@
 package com.assingment;
-import static io.restassured.RestAssured.given;
+
+import java.util.List;
 
 public class Car {
 	
-	private String make;
-	private String model;
-	private String engine;
+	 String make;
+	 String model;
+	 Engine engine;
+	 List <ElectronicItems> electronics;
 	
-	public String getEngine() {
-		return engine;
+	
+	
+	
+	public List<ElectronicItems> getElectronics() {
+		return electronics;
 	}
-	public String setEngine(String engine) {
-		return this.engine = engine;
+	public void setElectronics(List<ElectronicItems> electronics) {
+		this.electronics = electronics;
 	}
 	public String getMake() {
 		return make;
 	}
-	public void setMake(String make) {
-		this.make = make;
-	}
 	public String getModel() {
 		return model;
+	}
+	public Engine getEngine() {
+		return engine;
+	}
+	public void setMake(String make) {
+		this.make = make;
 	}
 	public void setModel(String model) {
 		this.model = model;
 	}
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+	}
 	
 	
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
